@@ -21,10 +21,11 @@
   font-family: monospace;
 }
 
-/*.text-checkbox .checked {
+.text-checkbox .checked {
   display: none;
 }
-.text-checkbox :checked ~ .checked {
+
+/*.text-checkbox :checked ~ .checked {
   display: inline-block;
 }
 .text-checkbox :checked ~ .unchecked {
