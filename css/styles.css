@@ -25,10 +25,11 @@
   display: none;
 }
 
-/*.text-checkbox :checked ~ .checked {
+.text-checkbox :checked~.checked {
   display: inline-block;
 }
-.text-checkbox :checked ~ .unchecked {
+
+/*.text-checkbox :checked ~ .unchecked {
   display: none;
 }
 
