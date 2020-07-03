@@ -13,10 +13,11 @@
   height: 1.5em;
 }
 
-/*.text-checkbox {
+.text-checkbox {
   display: block;
 }
-.text-checkbox span {
+
+/*.text-checkbox span {
   font-family: monospace;
 }
 .text-checkbox .checked {
