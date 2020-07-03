@@ -17,10 +17,11 @@
   display: block;
 }
 
-/*.text-checkbox span {
+.text-checkbox span {
   font-family: monospace;
 }
-.text-checkbox .checked {
+
+/*.text-checkbox .checked {
   display: none;
 }
 .text-checkbox :checked ~ .checked {
