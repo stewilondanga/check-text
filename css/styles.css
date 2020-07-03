@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -20,6 +20,29 @@ body {
 .my_social a img {
   height: 1.5em;
 }
+
+.text-checkbox {
+  display: block;
+}
+.text-checkbox span {
+  font-family: monospace;
+}
+.text-checkbox .checked {
+  display: none;
+}
+.text-checkbox :checked ~ .checked {
+  display: inline-block;
+}
+.text-checkbox :checked ~ .unchecked {
+  display: none;
+}
+
+@media screen {
+  .text-checkbox input {
+    display: none;
+  }
+}
+
 
 .containers {
   width: 520px;
