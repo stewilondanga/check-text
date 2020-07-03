@@ -29,11 +29,11 @@
   display: inline-block;
 }
 
-/*.text-checkbox :checked ~ .unchecked {
+.text-checkbox :checked~.unchecked {
   display: none;
 }
 
-@media screen {
+/*@media screen {
   .text-checkbox input {
     display: none;
   }
